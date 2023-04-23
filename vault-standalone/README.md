@@ -9,6 +9,7 @@ Each value marked 'CHANGEME' needs to be modified prior to running:
 1. A license key needs to be added
 2. You need to actually create the key in AWS
 3. The path needs to be updated to point towards the location of the key on your local machine
+4. The AMI ID needs to be added with the appropriate default username
 
 # An Important Note
 
