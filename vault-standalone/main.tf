@@ -34,6 +34,10 @@ resource "aws_instance" "conor-tf-vault" {
     destination = "/tmp/vault-license.hcl"
   }
   provisioner "file" {
+    source = "./bootstrap.sh"
+    destination = "/tmp/bootstrap.sh"
+  }
+  provisioner "file" {
     source = "./vault.service"
     destination = "/tmp/vault.service"
   }
