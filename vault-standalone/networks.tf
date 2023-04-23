@@ -54,7 +54,7 @@ resource "aws_main_route_table_association" "conor-vpc-route-association" {
 resource "aws_subnet" "conor-subnet" {
   vpc_id            = aws_vpc.conor-vault-vpc.id
   cidr_block        = "10.0.0.0/24"
-  availability_zone = "ap-northeast-2b"
+  availability_zone = "CHANGEME"
 
   tags = {
     Name = "conor-tf-subnet"
